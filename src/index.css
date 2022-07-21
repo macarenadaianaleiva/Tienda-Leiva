@@ -4,6 +4,9 @@
     box-sizing: border-box; 
   }
 
+
+
+
   nav{
     display: flex;
     flex-direction: row;
@@ -29,4 +32,22 @@
 
   a{
     text-decoration: none;
+  }
+
+  .padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(155, 127, 255);
+   
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
